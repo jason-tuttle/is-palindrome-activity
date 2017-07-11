@@ -15,7 +15,8 @@ describe("isPalindrome", function () {
 
   it("can detect one-word capitalized palindromes", function () {
     assert(isPalindrome("Racecar"));
-    // TODO add some more examples
+    assert(isPalindrome("Seveneves"));
+    assert(isPalindrome("Level"));
   });
 
   it("can detect multi-word lowercased palindromes", function () {
