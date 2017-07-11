@@ -1,5 +1,7 @@
 function isPalindrome(text) {
-  // TODO write this function
+  if (text !== text.split('').reverse().join('')) {
+    return false;
+  }
 }
 
 module.exports = isPalindrome;

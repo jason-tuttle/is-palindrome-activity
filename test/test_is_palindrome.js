@@ -1,10 +1,10 @@
 const assert = require("assert");
-const isPalindrome = require("./is_palindrome");
+const isPalindrome = require("../is_palindrome");
 
 describe("isPalindrome", function () {
   it("can detect that something isn't a palindrome", function () {
     assert(!isPalindrome("programming"));
-    // TODO add some more examples
+    assert(!isPalindrome("javascript"));
   });
 
   it("can detect one-word lowercased palindromes", function () {
