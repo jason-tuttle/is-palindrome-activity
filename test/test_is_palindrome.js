@@ -21,6 +21,7 @@ describe("isPalindrome", function () {
 
   it("can detect multi-word lowercased palindromes", function () {
     assert(isPalindrome("stunt nuts"));
+    assert(isPalindrome("race car"));
     // TODO add some more examples
   });
 
