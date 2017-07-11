@@ -9,7 +9,8 @@ describe("isPalindrome", function () {
 
   it("can detect one-word lowercased palindromes", function () {
     assert(isPalindrome("level"));
-    // TODO add some more examples
+    assert(isPalindrome("seveneves"));
+    assert(isPalindrome("mum"));
   });
 
   it("can detect one-word capitalized palindromes", function () {
